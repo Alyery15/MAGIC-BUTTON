@@ -1,0 +1,23 @@
+/*styling */
+body {
+font-family: Courier, monospace;
+justify-content: center;
+align-items: center;
+height:100vh;
+background-color: rgb(162, 175, 199);
+transition:background-color 0.5s, color 0.5s
+
+}
+button {
+    font-size:30px;
+    padding:50px 50px;
+    background-color:rgb(140, 190, 251);
+    color: rgb(0, 0, 7);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: transform 0.3s, background-color 0.5s;
+
+}
+button:hover {
+    transform: scale(1.1)
+}
